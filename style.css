@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAF7F3;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #0B1220;
+    height: 10vmin;
+    padding: 0 2rem;
+}
+
+.searchbar {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    background-color: #1E293B;
+    border-radius: 8px;
+    padding: 0 1rem;
+    justify-content: space-between;
+    margin-left: 10rem;
+}
+.earth-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+
+.searchbar input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.8rem 0;
+    width: 250px;
+    flex: 1;
+}
+
+.searchbar input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+.searchbar i {
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
