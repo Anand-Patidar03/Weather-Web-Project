@@ -1,23 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width= , initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
     <title>Weather</title>
-    <link rel="stylesheet" href="style.css" >
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <div class="navbar">
+      <div class="web-logo"></div>
 
-        <div class="searchbar">
-           <input id="txt" type="text" placeholder="Search City or Postcode" >
-                <i class="fa-solid fa-magnifying-glass"></i></div>
+      <div class="searchbar">
+        <input id="txt" type="text" placeholder="Search City or Postcode" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+
+      <div class="third-box">
+        <div class="select-icon">
+          
+          <img src="earth-icon.png" alt="Earth" class="earth-icon" />
+          <p>IN | ℃</p>
+          <i class="fa-solid fa-caret-down" style="color: white"></i>
         </div>
-        <img src="earth.png" alt="Earth" class="earth-icon">
-        
+
+        <div class="sign"></div>
+
+        <div class="menu"></div>
+      </div>
     </div>
-</head>
-<body>
-    
-</body>
+  </body>
+
+  <script src="app.js"></script>
 </html>
