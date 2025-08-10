@@ -1,59 +1,116 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #FAF7F3;
-    font-family: sans-serif;
+  background-color: #faf7f3;
+  font-family: sans-serif;
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: #0B1220;
-    height: 10vmin;
-    padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #0b1220;
+  height: 10vmin;
+  padding: 0 2rem;
+  gap: 1rem;
 }
 
 .searchbar {
-    width: 350px;
-    display: flex;
-    align-items: center;
-    background-color: #1E293B;
-    border-radius: 8px;
-    padding: 0 1rem;
-    justify-content: space-between;
-    margin-left: 10rem;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  background-color: #1e293b;
+  border-radius: 8px;
+  padding: 0 1rem;
+  justify-content: space-between;
+  margin-left: 10rem;
 }
-.earth-icon {
-    width: 20px;
-    height: 20px;
-    margin-left: 8px;
-    cursor: pointer;
-}
-
 
 .searchbar input {
-    border: none;
-    outline: none;
-    background: transparent;
-    color: #fff;
-    font-size: 1rem;
-    padding: 0.8rem 0;
-    width: 250px;
-    flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.8rem 0;
+  width: 100%;
+  flex: 1;
 }
 
 .searchbar input::placeholder {
-    color: rgba(255, 255, 255, 0.7);
-    text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
 }
 
 .searchbar i {
-    color: #fff;
-    font-size: 1.2rem;
-    cursor: pointer;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.third-box {
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+  width: 30%;
+  padding: 4rem;
+}
+
+.select-icon {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  user-select: all;
+  cursor: pointer;
+  width: 40%;
+}
+
+.select-icon p {
+  color: white;
+  padding: 1rem;
+}
+
+.earth-icon {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  margin-left: 5rem;
+  border: none;
+  border-radius: 100px;
+}
+
+
+.sign {
+    width: 30%;
+}
+
+.sign-up {
+  cursor: pointer;
+  background-color: #0b1220;
+  color: white;
+  width: 100%;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  margin-left: 0.5rem;
+}
+
+
+.menu {
+  color: white;
+  width: 25%;
+}
+
+.menu-btn {
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-left: 20rem;
+  /* max-width: fit-content; */
 }
